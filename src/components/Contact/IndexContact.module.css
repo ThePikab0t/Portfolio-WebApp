@@ -34,11 +34,63 @@
     color:#6fda44ca;
     letter-spacing: 0rem;
     font-size:1.8rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    position: relative;
+    text-decoration: none;
+    overflow: hidden;
+    border: 2px solid transparent;
+}
+
+.text2 span::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background: 
+        linear-gradient(90deg, #6fda44, #6fda44) top,
+        linear-gradient(180deg, #6fda44, #6fda44) right,
+        linear-gradient(270deg, #6fda44, #6fda44) bottom,
+        linear-gradient(0deg, #6fda44, #6fda44) left;
+    background-size: 0 2px, 2px 0, 0 2px, 2px 0;
+    background-repeat: no-repeat;
+    background-position: 
+        left top,
+        right top,
+        right bottom,
+        left bottom;
+    transition: all 0.4s ease;
+}
+
+.text2 span:hover{
+    color: #6fda44;
+    transform: translateY(-2px);
+}
+
+.text2 span:hover::before {
+    background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%;
+    transition: 
+        background-size 0.4s ease,
+        background-size 0.4s ease 0.1s,
+        background-size 0.4s ease 0.2s,
+        background-size 0.4s ease 0.3s;
+}
+
+.text2 span:active{
+    transform: translateY(0px);
+    transition: all 0.1s ease;
 }
 
 .mainIndexContact a Button{
     display:flex;
     justify-content:center;
+    cursor: pointer;
 }
 
 .icon{

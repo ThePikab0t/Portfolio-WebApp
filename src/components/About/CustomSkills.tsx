@@ -6,13 +6,13 @@ const CustomSkills = () => {
   const CustomSkillsComponent = [
     {
     title:"Main skills",
-    skills1_a:"Web App Developer,",
-    skills1_b:"Statigic Thinker,",
+    skills1_a:"Full Stack Web Developer,",
+    skills1_b:"AI Developer,",
     skills1_c:"Tools Developer",
     skills2_a:"Frontend, UX/UI,",
     skills2_b:"Backend Integration",
     skills2_c:"REST APIs, Express.js",
-    skills3_a:"JavaScript, CSS, HTML,",
+    skills3_a:"JavaScript, SCSS, HTML,",
     skills3_b:"React, GSAP, TypeScript,",
     skills3_c:"NodeJs, MongoDB, Firebase",
   },

@@ -37,18 +37,19 @@ const MainInfo:React.FC<{id:string}> = (props) => {
         <div className={styles.start}>
              <div className={styles.infoStart}>
               <div className={styles.introStart} id="startText1"><span>$ </span><span>whoami</span></div>
-              <div className={styles.nameStart} id="startText2"><span>Muhammad</span><span>Shehryaar</span><span>Khan</span></div>
-              <div className={styles.fieldWeb} id="startText3">Creative Web Developer</div>
-              <div className={styles.fieldCyber} id="startText4">Bug Bounty Hunter</div>
+              <div className={styles.nameStart} id="startText2"><span>Aizaz</span><span>Ul</span><span>Haq</span></div>
+              <div className={styles.fieldWeb} id="startText3">Full Stack Web Developer</div>
+              <div className={styles.fieldCyber} id="startText4">AI Developer</div>
+              <div className={styles.fieldCyber} id="startText4">Cybersecurity Analyst</div>
             </div>
         </div>
 
           <div className={styles.mid} >
           <div className={styles.infoMid}  >
             <div className={styles.midText1} id="midText1">From <span style={{color:'green',fontWeight:1000}}>{NameTypeWrite}</span>to help the <span style={{color:'#639cd9',fontWeight:800}}> world!</span></div>
-            <div className={styles.midText2} id="midText2">I did my Olevels from OPF College</div>
-            <div className={styles.midText3} id="midText3">and A-levels from Roots International School</div>
-            <div className={styles.midText4} id="midText4"> Currently doing my bachelors in Cyber Security from Air University</div>
+            <div className={styles.midText2} id="midText2">Cybersecurity Degree holder</div>
+            <div className={styles.midText3} id="midText3">I am a Cybersecurity and Development enthusiast</div>
+            <div className={styles.midText4} id="midText4">from developing to securing, I am the guy</div>
           </div>
           </div>
 
@@ -57,7 +58,7 @@ const MainInfo:React.FC<{id:string}> = (props) => {
           <div className={styles.endText1} id="endText1">Motive<span style={{color:'#8400ff'}}>?</span></div>
           <div className={styles.endText2} id="endText2">The main thing that motivates me is to figure out most efficient way to solve a complex-problem, when stuck in it.</div>
           <div className={styles.endText4} id="endText3">Creating extraordinary websites using different technologies</div>
-          <div className={styles.endText5} id="endText4">Learning about new technologies to find bugs and secure them.</div>
+          <div className={styles.endText5} id="endText4">Learning about new technologies while keeping security in mind.</div>
           <div className={styles.endText6} id="endText6"><Link to="/contact">Contact Me</Link></div> 
           </div>
         </div>
